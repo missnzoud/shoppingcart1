@@ -97,7 +97,9 @@ function buycourse(e) {
  }
 
  // add the courses into the locale storage 
+
   function saveIntoStorage(course){
+    
       let courses = getCoursesFromStorage();
       
       //add the courses into the array
